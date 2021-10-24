@@ -54,7 +54,7 @@ We can conclude that the model performs better when there is a higher number of 
 Simple mathematical model with good results. <br />
 It is not necessary to place each point close to the true coordinates. System converges to equilibrium for any initial, non-zero placement.  <br />
 The model is robust against outliers in the noisy data. Force scaling using **tanh** and high device count provides robustness against outliers in the noisy data. <br />
-Problem can be stated and solved in 1-dimensional **(1D)** 2-dimensional **(2D)** and 3-dimensional **(3D)** spaces. I will start from **1D** and generalize the solution to higher dimensions.
+Method is general and can solve the problem in n-dimensional space. Solutions in 1-dimensional **(1D)** 2-dimensional **(2D)** and 3-dimensional **(3D)** spaces are included in notebook.
 
 ## Limitations:  
 The complexity of the system increases drastically when the device number is greater than 100.
